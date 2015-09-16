@@ -16,7 +16,7 @@ def bold_decorator(f):
     
     return new_f
 
-#decorator sytanx
+#decorator syntax
 @bold_decorator
 def print_bold_html(s):
     return "<p>{0}</p>".format(s)
