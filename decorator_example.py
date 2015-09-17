@@ -26,7 +26,7 @@ def print_caps_html(s):
     return "<p>{0}</p>".format(s)
 
 
-#can combine multiple decorators
+#combine multiple decorators
 @bold_decorator
 @caps_decorator
 def print_bold_caps_html(s):
